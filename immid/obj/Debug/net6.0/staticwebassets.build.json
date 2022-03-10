@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qDNd/9F1LRIObgmeJP4Urx6ufhVbO1eZHYoX+OEIrDA=",
+  "Hash": "3RaaHYgvFaRPpG0jf/rw0h+kGnUGK+BlbOvlkTav4sU=",
   "Source": "immid",
   "BasePath": "_content/immid",
   "Mode": "Default",
@@ -2259,6 +2259,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\Экспорт изображений\\Group 1572.svg"
+    },
+    {
+      "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\js\\Script.js",
+      "SourceId": "immid",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\",
+      "BasePath": "_content/immid",
+      "RelativePath": "js/Script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Script.js"
     }
   ]
 }
