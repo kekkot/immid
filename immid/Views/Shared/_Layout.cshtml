@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IMMID</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!------ animation ---------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+   
+</head>
+<body class="page">
+    <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <button class="accordion">Наука</button>
+        <div class="panel">
+            <a class="link-panel">Журнал</a>
+            <a class="link-panel">Конференции</a>
+            <a class="link-panel">Спецсовет</a>
+        </div>
+        <button class="accordion">Проекты</button>
+        <div class="panel">
+            <a class="link-panel">Все проекты</a>
+            <a class="link-panel">Медиашкола</a>
+            <a class="link-panel">Студенческий центр</a>
+            <a class="link-panel">Медиастудия</a>
+        </div>
+        <button class="accordion">Сотрудникам</button>
+        <div class="panel">
+            <a class="link-panel">Профсоюз работников</a>
+            <a class="link-panel">Конкурсы на замещение вакантных должностей</a>
+        </div>
+        <button class="accordion">События</button>
+        <div class="panel">
+            <a class="link-panel">Новости</a>
+            <a class="link-panel">Календарь событий</a>
+        </div>
+        <button class="accordion">Фотогалерея</button>
+        <div class="panel">
+
+        </div>
+        <button class="accordion">Партнерам</button>
+        <div class="panel">
+
+        </div>
+        <button class="accordion">Внеучебное</button>
+        <div class="panel">
+            <a class="link-panel">Безопасность</a>
+            <a class="link-panel">Антикоррупция</a>
+            <a class="link-panel">Борьба с наркоманией</a>
+            <a class="link-panel">Гражданская оборона</a>
+            <a class="link-panel">Противодействие
+                терроризму</a>
+        </div>
+        <div class="contacts">
+            <div class="contacts-col">
+                <p class="text-contact">Контакты</p>
+                <p class="subtext-contact">Пр-т Вернадского, д. 20, <b>Симферополь</b></p>
+            </div>
+            <img style="width:41px;height:41px;" src="~/image/add_location.png">
+        </div>
+    </nav>
+
+    <nav class="nav-block">
+        <div class="nav-info-block">
+            <img class="nav-logo" src="~/image/Group 1569.png">
+            <div class="nav-block-text">
+                <div class=" dropdown">
+                    <button class="dropbtn nav-links">Об
+                                институте</button>
+                    <div class="dropdown-content">
+                        <a href="#">О нас</a>
+                        <a href="#">Руководство</a>
+                        <a href="#">Ученый совет</a>
+                        <a href="#">Кафедры</a>
+                        <a href="#">Комиссии</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn nav-links">Абитуриенту</button>
+                    <div class="dropdown-content">
+                        <a href="projects.html">Программы обучения</a>
+                        <a href="#">Общежитие</a>
+                        <a href="#">День открытых дверей</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn nav-links">Студенту</button>
+                    <div class="dropdown-content">
+                        <a href="#">Студсовет</a>
+                        <a href="#">Профсоюз</a>
+                        <a href="#">Стипендии</a>
+                        <a href="#">Институт гордится</a>
+                        <a href="#">Материальная помощь</a>
+                        <a href="#">Трудоустройство</a>
+                    </div>
+                </div>
+            </div>
+            <img class="nav-search" src="~/image/Group 1477.png">
+        </div>
+        <div class="burger-menu"><span onclick="openNav()"><img src="~/image/bourger.svg"></span>
+        </div>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+    <footer class="footer">
+            <div class="icons">
+                <div class="icons-row">
+                    <img class="footer-img" src="~/image/Group 1545.png">
+                    <p class="footer-text">Институт медиакоммуникаций, медиатехнологийи дизайна</p>
+                </div>
+                <div class="icons-row">
+                    <img class="footer-img" src="~/image/лого кфу 1.png">
+                    <p class="footer-text">Крымский федеральный университет<br>им. В. И. Вернадского</p>
+                </div>
+            </div>
+            <div class="institute">
+                <p class="institute-title institute-text">Об институте</p>
+                <p class="institute-text">История</p>
+                <p class="institute-text">Руководство</p>
+                <p class="institute-text">Ученый совет</p>
+                <p class="institute-text">Кафедры</p>
+                <p class="institute-text">Комиссии</p>
+            </div>
+            <div class="institute">
+                <p class="institute-title institute-text">Абитуриенту</p>
+                <p class="institute-text">Специальности</p>
+                <p class="institute-text">ЕГЭ и поступление</p>
+                <p class="institute-text">Общежитие</p>
+                <p class="institute-text">Перечень программ</p>
+                <p class="institute-text">День открытых дверей</p>
+            </div>
+            <div class="institute">
+                <p class="institute-title institute-text">Студенту</p>
+                <p class="institute-text">Студсовет</p>
+                <p class="institute-text">Профсоюз</p>
+                <p class="institute-text">Институт в лицах</p>
+                <p class="institute-text">Материальная помощь</p>
+                <p class="institute-text">Трудоустройство</p>
+            </div>
+            <div class="institute">
+                <p class="institute-main institute-text">Наука</p>
+                <p class="institute-main institute-text">Медиастудия</p>
+                <p class="institute-main institute-text">Проекты</p>
+                <p class="institute-main institute-text">Cотрудникам</p>
+                <p class="institute-main institute-text">Новости</p>
+                <p class="institute-main institute-text">Фотогалерея</p>
+                <p class="institute-main institute-text">Контакты</p>
+            </div>
+            <div class="institute-icons text-center">
+                <i class="social-icon__hover fa fa-vk "></i>
+                <i class="social-icon__hover fa fa-facebook pt-2 pb-2"></i>
+                <i class="social-icon__hover fa fa-instagram"></i>
+            </div>
+     </footer>
+     <footer class="footer-block">
+            <div class="footer-adress d-flex justify-content-center">
+                <img class="footer-img-adress" src="~/image/Group 1562.png">
+                <p class="adress-kfu">Проспект Вернадского 4</p>
+            </div>
+     </footer>
+</body>
+</html>
