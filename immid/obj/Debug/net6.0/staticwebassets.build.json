@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4hZVLcejrlHdi8KiesRWTJcHNUW4HYZ/IjY0Q2UNJmY=",
+  "Hash": "odjeT2jYsC2Wm87t4PSDiJyABeWVjoWWXWpQMBxKoIs=",
   "Source": "immid",
   "BasePath": "_content/immid",
   "Mode": "Default",
@@ -2276,6 +2276,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Script.js"
+    },
+    {
+      "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\js\\Script2.js",
+      "SourceId": "immid",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\",
+      "BasePath": "_content/immid",
+      "RelativePath": "js/Script2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Script2.js"
     }
   ]
 }
