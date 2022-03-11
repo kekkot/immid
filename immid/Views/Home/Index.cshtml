@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<immid.Models.ProjectModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,13 +12,15 @@
         </ul>
         <!-- The slideshow -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            @foreach(var project in Model)
+            {
+                <div class="carousel-item active">
                 <div class="row  row-setting w-100">
                     <div class="col-sm-12 col-md-6 boot-test">
                         <div class="first-col">
-                            <p class="header-text">Проект N42</p>
+                            <p class="header-text">@project.Title</p>
                             <div class="header-subtext">
-                                <p>Самый ожидаемый designton осени.</p>
+                                <p>@project.ShortDesc</p>
                             </div>
                             <button class="btn-set pr-3">Подробнее</button>
                             <div class="social-icon text-center">
@@ -41,9 +44,9 @@
                 <div class="row row-setting w-100">
                     <div class="col-sm-12 col-md-6 boot-test">
                         <div class="first-col">
-                            <p class="header-text">Проект N42</p>
+                            <p class="header-text">@project.Title</p>
                             <div class="header-subtext">
-                                <p>Самый ожидаемый designton осени.</p>
+                                <p>@project.ShortDesc</p>
                             </div>
                             <button class="btn-set pr-3">Подробнее</button>
                             <div class="social-icon text-center">
@@ -67,9 +70,9 @@
                 <div class="row row-setting w-100">
                     <div class="col-sm-12 col-md-6 boot-test">
                         <div class="first-col">
-                            <p class="header-text">Проект N42</p>
+                            <p class="header-text">@project.Title</p>
                             <div class="header-subtext">
-                                <p>Самый ожидаемый designton осени.</p>
+                                <p>@project.ShortDesc</p>
                             </div>
                             <button class="btn-set pr-3">Подробнее</button>
                             <div class="social-icon text-center">
@@ -87,6 +90,7 @@
                     </div>
                 </div>
             </div>
+            }            
         </div>    
     </div>
     <hr class="line">

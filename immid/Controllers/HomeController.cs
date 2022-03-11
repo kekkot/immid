@@ -8,14 +8,18 @@ namespace immid.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        ProjectContext db;
+        //В конструкторе получаем контекст данных
+        public HomeController(ILogger<HomeController> logger, ProjectContext context)
         {
             _logger = logger;
+            db = context;
         }
-
+        //Вызываем метод для генерации представления
+        //В него передает все объекты из таблицы Projects
         public IActionResult Index()
         {
-            return View();
+            return View(db.Projects.ToList());
         }
 
         public IActionResult Privacy()
