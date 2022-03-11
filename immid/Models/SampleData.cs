@@ -13,19 +13,70 @@
                     {
                         Title = "iPhone X",
                         ShortDesc = "Apple",
-                        LongDexc = "da"
+                        LongDexc = "da",
+                        Active = " active"
                     },
                     new ProjectModel
                     {
                         Title = "Samsung Galaxy Edge",
                         ShortDesc = "Samsung",
-                        LongDexc = "da"
+                        LongDexc = "da",
+                        Active = ""
                     },
                     new ProjectModel
                     {
                         Title = "Pixel 3",
                         ShortDesc = "Google",
-                        LongDexc = "da"
+                        LongDexc = "da",
+                        Active = ""
+                    }
+                );
+                context.SaveChanges();
+            }
+            if (!context.News.Any())
+            {
+                context.News.AddRange(
+                    new NewsModel
+                    {
+                        Title = "Уникальное событие",
+                        Desc = "ИДИ",
+                        Category = "da"
+                    },
+                    new NewsModel
+                    {
+                        Title = "Открытие века",
+                        Desc = "ДЕЛАЙ",
+                        Category = "da"
+                    },
+                    new NewsModel
+                    {
+                        Title = "Ультра супер мега харош",
+                        Desc = "ДИПЛОМ",
+                        Category = "da"
+                    }
+                );
+                context.SaveChanges();
+            }
+            if (!context.Events.Any())
+            {
+                context.Events.AddRange(
+                    new EventModel
+                    {
+                        Title = "Уникальное событие",
+                        Desc = "ЧИКИБАМБОНИ",
+                        Category = "da"
+                    },
+                    new EventModel
+                    {
+                        Title = "Открытие века",
+                        Desc = "ЧИКИБОМБАСТЕР",
+                        Category = "da"
+                    },
+                    new EventModel
+                    {
+                        Title = "Ультра супер мега харош",
+                        Desc = "ЧИКИБОМБОНИСТЕР",
+                        Category = "da"
                     }
                 );
                 context.SaveChanges();

@@ -5,6 +5,8 @@ namespace immid.Models
     {
         //Помогает получить из бд набор данных (таблица)
         public DbSet<ProjectModel> Projects { get; set; }
+        public DbSet<NewsModel> News { get; set; }
+        public DbSet<EventModel> Events { get; set; }
         
         public ProjectContext(DbContextOptions<ProjectContext> options)
             : base(options)

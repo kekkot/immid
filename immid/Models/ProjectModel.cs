@@ -6,5 +6,7 @@
         public string Title { get; set; }
         public string ShortDesc { get; set; }
         public string LongDexc { get; set; }
+
+        public string Active { get; set; }
     }
 }
