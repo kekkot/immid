@@ -12,82 +12,35 @@
         </ul>
         <!-- The slideshow -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="row  row-setting w-100">
-                    <div class="col-sm-12 col-md-6 boot-test">
-                        <div class="first-col">
-                            <p class="header-text">Проект 42</p>
-                            <div class="header-subtext">
-                                <p>Самый ожидаемый designton осени.</p>
+            @foreach(ProjectModel project in Model){
+                <div class="carousel-item @project.Active">
+                    <div class="row  row-setting w-100">
+                        <div class="col-sm-12 col-md-6 boot-test">
+                            <div class="first-col">
+                                <p class="header-text">@project.Title</p>
+                                <div class="header-subtext">
+                                    <p>@project.ShortDesc</p>
+                                </div>
+                                <button class="btn-set pr-3">Подробнее</button>
+                                <div class="social-icon text-center">
+                                    <i class="social-icon-hover fa fa-vk "></i>
+                                    <i class="social-icon-hover fa fa-facebook pt-2 pb-2"></i>
+                                    <i class="social-icon-hover fa fa-instagram"></i>
+                                </div>
                             </div>
-                            <button class="btn-set pr-3">Подробнее</button>
-                            <div class="social-icon text-center">
-                                <i class="social-icon-hover fa fa-vk "></i>
-                                <i class="social-icon-hover fa fa-facebook pt-2 pb-2"></i>
-                                <i class="social-icon-hover fa fa-instagram"></i>
+                        </div>
+                        <div class="col-sm-12 col-md-6 boot-test">
+                            <div class="second-col">
+                                <img class="woman" src="~/image/Девушка 1.png">
+                                <img src="~/image/Vector 16.png" class="header-image-triangle">
+                                <img src="~/image/Ellipse 63.png" class="header-image-ellipse">
+                                <img src="~/image/Rectangle 598.png" class="header-image-rectangle">
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 boot-test">
-                        <div class="second-col">
-                            <img class="woman" src="~/image/Девушка 1.png">
-                            <img src="~/image/Vector 16.png" class="header-image-triangle">
-                            <img src="~/image/Ellipse 63.png" class="header-image-ellipse">
-                            <img src="~/image/Rectangle 598.png" class="header-image-rectangle">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row row-setting w-100">
-                    <div class="col-sm-12 col-md-6 boot-test">
-                        <div class="first-col">
-                            <p class="header-text">Проект 42</p>
-                            <div class="header-subtext">
-                                <p>Самый ожидаемый designton осени.</p>
-                            </div>
-                            <button class="btn-set pr-3">Подробнее</button>
-                            <div class="social-icon text-center">
-                                <i class="social-icon-hover fa fa-vk "></i>
-                                <i class="social-icon-hover fa fa-facebook pt-2 pb-2"></i>
-                                <i class="social-icon-hover fa fa-instagram"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 boot-test">
-                        <div class="second-col">
-                            <img class="woman" src="~/image/Девушка 1.png">
-                            <img src="~/image/Vector 16.png" class="header-image-triangle">
-                            <img src="~/image/Ellipse 63.png" class="header-image-ellipse">
-                            <img src="~/image/Rectangle 598.png" class="header-image-rectangle">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row row-setting w-100">
-                    <div class="col-sm-12 col-md-6 boot-test">
-                        <div class="first-col">
-                            <p class="header-text">Проект 42</p>
-                            <div class="header-subtext">
-                                <p>Самый ожидаемый designton осени.</p>
-                            </div>
-                            <button class="btn-set pr-3">Подробнее</button>
-                            <div class="social-icon text-center">
-                                <i class="social-icon-hover fa fa-vk "></i>
-                                <i class="social-icon-hover fa fa-facebook pt-2 pb-2"></i>
-                                <i class="social-icon-hover fa fa-instagram"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 boot-test">
-                        <img class="woman" src="~/image/Девушка 1.png">
-                        <img src="~/image/Vector 16.png" class="header-image-triangle">
-                        <img src="~/image/Ellipse 63.png" class="header-image-ellipse">
-                        <img src="~/image/Rectangle 598.png" class="header-image-rectangle">
-                    </div>
-                </div>
-            </div>    
+                </div>            
+            }
+           
         </div>    
     </div>
     <hr class="line">
