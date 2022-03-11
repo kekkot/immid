@@ -13,7 +13,7 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
             @foreach(ProjectModel project in Model){
-                <div class="carousel-item @project.Active">
+                <div class="carousel-item @(project == (Model as IEnumerable<ProjectModel>).FirstOrDefault() ? "active" : "")">
                     <div class="row  row-setting w-100">
                         <div class="col-sm-12 col-md-6 boot-test">
                             <div class="first-col">

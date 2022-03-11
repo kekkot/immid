@@ -13,22 +13,19 @@
                     {
                         Title = "iPhone X",
                         ShortDesc = "Apple",
-                        LongDexc = "da",
-                        Active = " active"
+                        LongDexc = "da"
                     },
                     new ProjectModel
                     {
                         Title = "Samsung Galaxy Edge",
                         ShortDesc = "Samsung",
-                        LongDexc = "da",
-                        Active = ""
+                        LongDexc = "da"
                     },
                     new ProjectModel
                     {
                         Title = "Pixel 3",
                         ShortDesc = "Google",
-                        LongDexc = "da",
-                        Active = ""
+                        LongDexc = "da"
                     }
                 );
                 context.SaveChanges();
