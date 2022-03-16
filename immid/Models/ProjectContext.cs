@@ -7,6 +7,7 @@ namespace immid.Models
         public DbSet<ProjectModel> Projects { get; set; }
         public DbSet<NewsModel> News { get; set; }
         public DbSet<EventModel> Events { get; set; }
+        public DbSet<User> User { get; set; }
         
         public ProjectContext(DbContextOptions<ProjectContext> options)
             : base(options)
