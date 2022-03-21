@@ -54,7 +54,7 @@ namespace immid.Controllers
                 if (user == null)
                 {
                     // добавляем пользователя в бд
-                    db.User.Add(new User { Email = model.Email, Pas = model.Password, Name = "aboba" });
+                    db.User.Add(new User { Email = model.Email, Pas = model.Password, Name="абоба" });
                     await db.SaveChangesAsync();
 
                     await Authenticate(model.Email); // аутентификация

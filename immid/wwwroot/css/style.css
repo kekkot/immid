@@ -290,7 +290,7 @@
     header {
         width: 100%;
         height: 100%;
-        background-image: url('Rectangle\ 621.png');
+        background-image: url('~/image/Rectangle\ 621.png');
         background-repeat: no-repeat;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -344,31 +344,31 @@
         margin-top: 100px;
         margin-left: 42px;
     }
-        
-    .btn-set {
-        background-image: url('\Rectangle 623.png');
-        background-repeat: no-repeat;
-        background-color: rgba(255, 255, 255, 0);
-        border: none;
-        width: 206px;
-        height: 48px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 166% */
-        /* Black */
-        color: #191A38;
-        margin-top: 43px;
-    }
+
+.btn-set {
+    background-image: url('~/image/\Rectangle 623.png');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 206px;
+    height: 48px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 166% */
+    /* Black */
+    color: #191A38;
+    margin-top: 43px;
+}
     
     .btn-set:focus {
         outline: none;
     }
-    
+
     .btn-set:hover {
-        background-image: url('Rectangle\ 652.png');
+        background-image: url('~/image/Rectangle\ 652.png');
         color: white;
     }
     
@@ -432,24 +432,24 @@
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
-    
-    .carousel-indicators li {
-        width: 10px !important;
-        height: 10px !important;
-        cursor: pointer;
-        opacity: .5;
-        transition: opacity .6s ease;
-        background-image: url('Ellipse\ 67.png');
-        background-repeat: no-repeat;
-        background-color: rgba(255, 255, 255, 0) !important;
-        background-size: cover;
-    }
-    
-    .carousel-indicators .active {
-        background-image: url('Ellipse\ 68.png') !important;
-        width: 15px !important;
-        height: 15px !important;
-    }
+
+        .carousel-indicators li {
+            width: 10px !important;
+            height: 10px !important;
+            cursor: pointer;
+            opacity: .5;
+            transition: opacity .6s ease;
+            background-image: url('~/image/Ellipse\ 67.png');
+            background-repeat: no-repeat;
+            background-color: rgba(255, 255, 255, 0) !important;
+            background-size: cover;
+        }
+
+        .carousel-indicators .active {
+            background-image: url('~/image/Ellipse\ 68.png') !important;
+            width: 15px !important;
+            height: 15px !important;
+        }
     
     .carousel-second-row {
         margin-top: 81px;
@@ -619,17 +619,17 @@
         margin-top: 54px;
         display: flex;
     }
-    
-    .news-img {
-        width: 780px;
-        height: 500px;
-        background-image: url('alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 25px;
-        position: relative;
-        margin-left: 50px;
-    }
+
+.news-img {
+    width: 780px;
+    height: 500px;
+    background-image: url('~/image/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+    margin-left: 50px;
+}
     
     .news__title {
         position: absolute;
@@ -738,28 +738,28 @@
         display: flex;
         justify-content: center;
     }
-    
-    .news-slider__card {
-        background-image: url("brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design\ 1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 250px;
-        height: 325px;
-        margin-right: 61px;
-        position: relative;
-        transition: 1s;
-    }
-    
-    .news-slider__card-2 {
-        background-image: url("brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design\ 1.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 281px;
-        height: 360px;
-        margin-right: 61px;
-        position: relative;
-        transition: 1s;
-    }
+
+.news-slider__card {
+    background-image: url("~/image/brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 325px;
+    margin-right: 61px;
+    position: relative;
+    transition: 1s;
+}
+
+.news-slider__card-2 {
+    background-image: url("~/image/brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 281px;
+    height: 360px;
+    margin-right: 61px;
+    position: relative;
+    transition: 1s;
+}
     
     .bg-card {
         position: absolute;
@@ -854,23 +854,23 @@
         margin-top: 77px;
         position: relative;
     }
-    
-    .programms {
-        background-image: url("Rectangle\ 621.png");
-        background-size: cover;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        height: 1200px;
-        margin-top: 69px;
-    }
-    
-    .programms-page {
-        background-image: url("Rectangle\ 621.png");
-        background-size: cover;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        height: 1200px;
-    }
+
+.programms {
+    background-image: url("~/image/Rectangle\ 621.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 1200px;
+    margin-top: 69px;
+}
+
+.programms-page {
+    background-image: url("~/image/Rectangle\ 621.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 1200px;
+}
     
     .skew-fix {
         display: inline-block;
@@ -1270,10 +1270,10 @@
         display: flex;
         align-items: center;
     }
-    
-    .accordion-proj .label-proj::after {
-        content: url('Vector\ 50.png');
-    }
+
+        .accordion-proj .label-proj::after {
+            content: url('~/image/Vector\ 50.png');
+        }
     
     .accordion-proj .content {
         position: relative;
@@ -1301,10 +1301,10 @@
     .accordion-proj .container.active .content {
         height: 100px;
     }
-    
-    .accordion-proj .container.active .label-proj::after {
-        content: url(Vector\ 51.png);
-    }
+
+.accordion-proj .container.active .label-proj::after {
+    content: url(~/image/Vector\ 51.png);
+}
     
     .proj-line {
         width: 1050px;
@@ -1616,23 +1616,23 @@
         line-height: 50px;
         color: #FFFFFF;
     }
-    
-    .numbers__back {
-        width: 784px;
-        height: 235px;
-        background-image: url("Rectangle\ 648.png");
-        background-size: cover;
-        position: absolute;
-    }
-    
-    .numbers__back-2 {
-        width: 784px;
-        height: 235px;
-        background-image: url("Rectangle\ 647.png");
-        background-size: cover;
-        position: absolute;
-        left: 436px;
-    }
+
+.numbers__back {
+    width: 784px;
+    height: 235px;
+    background-image: url("~/image/Rectangle\ 648.png");
+    background-size: cover;
+    position: absolute;
+}
+
+.numbers__back-2 {
+    width: 784px;
+    height: 235px;
+    background-image: url("~/image/Rectangle\ 647.png");
+    background-size: cover;
+    position: absolute;
+    left: 436px;
+}
     
     .numbers__point {
         width: 644.85px;
@@ -1712,14 +1712,14 @@
         color: #191A38;
         text-decoration: none;
     }
-    
-    .tab-1 button.active {
-        background-image: url('Rectangle\ 634.png');
-        background-repeat: no-repeat;
-        width: 292px;
-        height: 80px;
-        outline: none;
-    }
+
+.tab-1 button.active {
+    background-image: url('~/image/Rectangle\ 634.png');
+    background-repeat: no-repeat;
+    width: 292px;
+    height: 80px;
+    outline: none;
+}
     
     .tab-1 button:focus {
         outline: none;
@@ -1744,17 +1744,17 @@
         height: 535px;
         margin-left: 119px;
     }
-    
-    .tab-back {
-        background-image: url("alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        border-radius: 30px;
-        box-shadow: -30px 0px 1px 3px #999999;
-    }
+
+.tab-back {
+    background-image: url("~/image/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: -30px 0px 1px 3px #999999;
+}
     
     .text-tab {
         font-family: Montserrat;
