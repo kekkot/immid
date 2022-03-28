@@ -58,4 +58,4 @@ D:\Learn\ASP.NET\immid\immid\immid\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3
 D:\Learn\ASP.NET\immid\immid\immid\obj\Debug\net6.0\immid.csproj.CopyComplete
 D:\Learn\ASP.NET\immid\immid\immid\bin\Debug\net6.0\Humanizer.dll
 D:\Learn\ASP.NET\immid\immid\immid\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Learn\ASP.NET\immid\immid\immid\bin\Debug\net6.0\ref\immid.dll
+D:\Learn\ASP.NET\immid\immid\immid\obj\Debug\net6.0\refint\immid.dll

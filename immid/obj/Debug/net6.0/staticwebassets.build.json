@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9I2E7kP3b5f9SjMhnx2ZaAV7dQXTsXu1Dc3Nbo5ax1s=",
+  "Hash": "f8pGV65i7+qR+w7JhoTNKx9ZCZXqDQC/f4LIqgER0bc=",
   "Source": "immid",
   "BasePath": "_content/immid",
   "Mode": "Default",
@@ -389,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\css\\styleAdm.css",
+      "SourceId": "immid",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\",
+      "BasePath": "_content/immid",
+      "RelativePath": "css/styleAdm.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleAdm.css"
     },
     {
       "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\image\\1.png",
@@ -952,6 +969,23 @@
       "OriginalItemSpec": "wwwroot\\image\\icons8-add-webpage-48.png"
     },
     {
+      "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\image\\icons8-close-24.png",
+      "SourceId": "immid",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\",
+      "BasePath": "_content/immid",
+      "RelativePath": "image/icons8-close-24.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\icons8-close-24.png"
+    },
+    {
       "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\image\\icons8-home-32.png",
       "SourceId": "immid",
       "SourceType": "Discovered",
@@ -984,6 +1018,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\icons8-post-64.png"
+    },
+    {
+      "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\image\\icons8-search-30.png",
+      "SourceId": "immid",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\",
+      "BasePath": "_content/immid",
+      "RelativePath": "image/icons8-search-30.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\icons8-search-30.png"
     },
     {
       "Identity": "D:\\Learn\\ASP.NET\\immid\\immid\\immid\\wwwroot\\image\\icons8-settings-24.png",

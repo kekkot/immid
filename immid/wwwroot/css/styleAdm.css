@@ -2,6 +2,15 @@ header{
 	position: relative;
 	background: #E8E8E8;
 	height: 70px;	
+	box-shadow: 0 10px 28px rgba(0,0,0,0.25);
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 75px;	
+	background: #E8E8E8;
 }
 a{
 	text-decoration: none;
@@ -68,4 +77,43 @@ input{
 }
 .navbar-user p{
 	margin: 15px;
+}
+
+.navigation {
+	display: flex;
+	height: 250px;
+	width: 225px;
+	background: #262121;
+	position:sticky;
+}
+.navigation .items{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.item a{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.item a:link{
+	color:#F74E02;
+}
+.item a:hover{
+	color: #FF7127;
+}
+.item a img{
+	margin: 10px;
+}
+.navigation .items .item {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.main {
+	display: flex;
 }

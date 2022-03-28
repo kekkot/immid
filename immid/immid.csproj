@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Admin\LayoutAdm.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\LayoutAdm.cshtml" />
     <None Include="Views\Auth\Register.cshtml~RFd0fdc5.TMP" />
+    <None Include="wwwroot\css\styleAdm.css" />
   </ItemGroup>
 
   <ItemGroup>
