@@ -4,7 +4,12 @@ namespace immid.Controllers
 {
     public class AdminController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Home()
+        {
+            return View();
+        }
+
+        public IActionResult News()
         {
             return View();
         }

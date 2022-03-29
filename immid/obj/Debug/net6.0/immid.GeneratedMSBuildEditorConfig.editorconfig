@@ -15,8 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Learn\ASP.NET\immid\immid\immid
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Learn/ASP.NET/immid/immid/immid/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+[D:/Learn/ASP.NET/immid/immid/immid/Views/Admin/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn/ASP.NET/immid/immid/immid/Views/Admin/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmV3cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Learn/ASP.NET/immid/immid/immid/Views/Auth/login.cshtml]

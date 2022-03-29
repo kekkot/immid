@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "LayoutAdm";
+}
+<div class="grafContainer">
+	<form class="addNews">
+		<fieldset class="title">
+			<legend>Заголовок</legend>
+			<input class="inputTitle" type="text">
+		</fieldset>
+		<fieldset class="title">
+			<legend>Описание новости</legend>
+			<input class="inputTitle" type="text">
+		</fieldset>
+		<fieldset class="title" id="addNews">
+			<legend>Текст новости</legend>
+			<input class="inputNews" type="text">
+		</fieldset>
+		<fieldset class="title">
+			<input type=submit>
+		</fieldset>
+	</form>
+	<form class="settingNews">
+		<fieldset class="settingField">
+			<div class="settingBlock">
+				<label class="labelSetting">I agree to the terms
+					<input type="checkbox" />
+					<span></span>
+				</label>
+			</div>	
+			<div class="settingBlock">
+				<label class="labelSetting">I agree to the terms
+					<input type="checkbox" />
+					<span></span>
+				</label>
+			</div>
+			<div class="settingBlock">
+				<label>Изображение записи</label>
+				<input type="file">
+			</div>
+		</fieldset>				
+	</form>
+</div>
