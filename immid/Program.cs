@@ -10,6 +10,7 @@ builder.Services.AddControllersWithViews();
 string connection = builder.Configuration.GetConnectionString("DefaultConnection"); //Получаем строку подключения из файла конфигурации
 builder.Services.AddDbContext<ProjectContext>(options => options.UseSqlServer(connection)); //Добавляем контекст в качестве сервиса в приложение
 builder.Services.AddDbContext<UserContext>(options => options.UseSqlServer(connection)); //Добавляем контекст в качестве сервиса в приложение
+builder.Services.AddDbContext<NewsContext>(options => options.UseSqlServer(connection)); //Добавляем контекст в качестве сервиса в приложение
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(option => option.LoginPath = "/login"); //Добавление сервисов аутентификации
 builder.Services.AddAuthorization(); //Добавение сервисов авторизации

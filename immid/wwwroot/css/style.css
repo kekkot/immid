@@ -1,37 +1,37 @@
     @font-face {
-        src: url("/Montserrat/Montserrat-Regular.ttf");
+        src: url(~../font/Montserrat/Montserrat-Regular.ttf);
         font-family: Montserrat;
         font-style: normal;
         font-weight: 400;
     }
-    
-    @font-face {
-        src: url("/Montserrat/Montserrat-ExtraBold.ttf");
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 800;
-    }
-    
-    @font-face {
-        src: url("/Montserrat/Montserrat-SemiBold.ttf");
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-    }
-    
-    @font-face {
-        src: url("/Montserrat/Montserrat-Medium.ttf");
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-    }
-    
-    @font-face {
-        src: url("/Montserrat/Montserrat-Bold.ttf");
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-    }
+
+@font-face {
+    src: url(~../font/Montserrat/Montserrat-ExtraBold.ttf);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    src: url(~../font/Montserrat/Montserrat-SemiBold.ttf);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(~../font/Montserrat/Montserrat-Medium.ttf);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(~../font/Montserrat/Montserrat-Bold.ttf);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+}
     
     p {
         margin: 0 !important;
@@ -623,7 +623,7 @@
 .news-img {
     width: 780px;
     height: 500px;
-    background-image: url('~/image/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg');
+    background-image: url("~/image/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -740,7 +740,7 @@
     }
 
 .news-slider__card {
-    background-image: url("~/image/brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design\ 1.png");
+    background-image: url("~/image/brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design1.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 250px;
@@ -751,7 +751,7 @@
 }
 
 .news-slider__card-2 {
-    background-image: url("~/image/brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design\ 1.png");
+    background-image: url("~/image/brandless-sport-car-park-modern-geometry-design-wall-garage-3d-rendering-with-my-own-creative-design1.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 281px;
