@@ -28,7 +28,7 @@ namespace immid.Controllers
         [HttpPost]
         public async Task<IActionResult> News(NewsModel model)
         {
-            db.News.Add(new NewsModel { Title = model.Title, Desc = model.Desc, Text = model.Text });
+            db.News.Add(new NewsModel { Title = model.Title, Desc = model.Desc, Text = model.Text, Category="ab" });
             await db.SaveChangesAsync();
 
             return RedirectToAction("Index", "Home");

@@ -4,19 +4,20 @@
 @{
     Layout = "LayoutAdm";
 }
+@model immid.Models.NewsModel
 <div class="grafContainer">
-	<form class="addNews">
+	<form asp-action="News" asp-controller="Admin" asp-anti-forgery="true" class="addNews">
 		<fieldset class="title">
 			<legend>Заголовок</legend>
-			<input class="inputTitle" name="title" type="text">
+			<input asp-for="Title" class="inputTitle" name="title" type="text">
 		</fieldset>
 		<fieldset class="title">
 			<legend>Описание новости</legend>
-			<input class="inputTitle" name="desc" type="text">
+			<input asp-for="Desc" class="inputTitle" name="desc" type="text">
 		</fieldset>
 		<fieldset class="title" id="addNews">
 			<legend>Текст новости</legend>
-			<input class="inputNews" name="text" type="text">
+			<input asp-for="Text" class="inputNews" name="text" type="text">
 		</fieldset>
 		<fieldset class="title">
 			<input type=submit>

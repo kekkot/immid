@@ -5,8 +5,9 @@ namespace immid.Models
     {
         public DbSet<NewsModel> News { get; set; }
         public NewsContext(DbContextOptions<NewsContext> options)
-            : base(options)
+           : base(options)
         {
+            //При отсутствии бд создает ее
             Database.EnsureCreated();
         }
     }

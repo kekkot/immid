@@ -5,8 +5,9 @@ namespace immid.Models
     {
         public DbSet<User> User { get; set; }
         public UserContext(DbContextOptions<UserContext> options)
-            : base(options)
+           : base(options)
         {
+            //При отсутствии бд создает ее
             Database.EnsureCreated();
         }
     }

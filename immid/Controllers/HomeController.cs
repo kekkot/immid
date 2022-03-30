@@ -19,7 +19,13 @@ namespace immid.Controllers
         //В него передает все объекты из таблицы Projects
         public IActionResult Index()
         {
-            return View(db.Projects.ToList());
+            var model = new HomeModel
+            {
+                Projects = db.Projects.ToList(),
+                News = db.News.ToList()
+            };
+            return View(model);
+            
         }
 
         public IActionResult Privacy()
