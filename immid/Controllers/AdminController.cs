@@ -15,10 +15,12 @@ namespace immid.Controllers
         {
             db = context;
         }
+
         public IActionResult Home()
         {
-            return View();
+            return Redirect("~/Auth/login");
         }
+
         [HttpGet]
         public IActionResult News()
         {
