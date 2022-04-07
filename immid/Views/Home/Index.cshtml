@@ -256,35 +256,22 @@
     </section>
     <div id="demo-news" class="row w-100 carousel slide w-100" data-ride="carousel">
         <div class="carousel-inner">
-            @{int i =1;}
+            @{int i = 1;}
+            @{int k = 0;}
             @foreach(var news in Model.News)
-            {           
+            {  
                 <div class="carousel-item @(news == (Model.News as IEnumerable<NewsModel>).FirstOrDefault() ? "active" : "")">
                     <section class="news-slider">
-                        <div class="news-slider__card">
-                            <div class="bg-card">
-                                <div class="bg-card__text">
-                                    <p class="news-slider__card_text">@news.Title</p>
+                        @foreach(var title in Model.News){
+                            <div class="news-slider__card@(title == (Model.News as IEnumerable<NewsModel>).Skip(1) ? "-2" : "")">
+                                <div class="bg-card">
+                                    <div class="bg-card__text">
+                                        <p class="news-slider__card_text">@news.Title</p>
+                                    </div>
+                                    <img style="width: 83px; height: 64.27px;position: absolute;right:18px;top:-30px" src="~/image/Group 1535.png">
                                 </div>
-                                <img style="width: 83px; height: 64.27px;position: absolute;right:18px;top:-30px" src="~/image/Group 1535.png">
                             </div>
-                        </div>
-                        <div class="news-slider__card-2">
-                            <div class="bg-card">
-                                <div class="bg-card__text">
-                                    <p class="news-slider__card_text">@news.Title</p>
-                                </div>
-                                <img style="width: 83px; height: 64.27px;position: absolute;right:18px;top:-30px" src="~/image/Group 1535.png">
-                            </div>
-                        </div>
-                        <div class="news-slider__card">
-                            <div class="bg-card">
-                                <div class="bg-card__text">
-                                    <p class="news-slider__card_text">@news.Title</p>
-                                </div>
-                                <img style="width: 83px; height: 64.27px;position: absolute;right:18px;top:-30px" src="~/image/Group 1535.png">
-                            </div>
-                        </div>
+                        }       
                     </section>
                     <section class="slider-footer">
                         <div class="slider-footer__text">
@@ -484,7 +471,7 @@
     </section>
     <section class="media-images">
         <img class="image-media" src="~/image/photographers-editing-their-photos 1.png">
-        <img class="background-media" src="Vector 166.png">
+        <img class="background-media" src="~/image/Vector 166.png">
         <img class="image-media-2" src="~/image/woman-singer-with-microphone-music-studio 1.png">
         <img class="image-media-3" src="~/image/video-camera-viewfinder-recording-show-tv-studio-focus-camera 1.png">
         <img class="image-media-4" src="~/image/Rectangle 431.png">
