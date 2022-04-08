@@ -256,17 +256,19 @@
     </section>
     <div id="demo-news" class="row w-100 carousel slide w-100" data-ride="carousel">
         <div class="carousel-inner">
-            @{int i = 1;}
-            @{int k = 0;}
+            @{
+                int i = 1;
+                int k = 0;
+            }   
             @foreach(var news in Model.News)
-            {  
+            {
                 <div class="carousel-item @(news == (Model.News as IEnumerable<NewsModel>).FirstOrDefault() ? "active" : "")">
                     <section class="news-slider">
-                        @foreach(var title in Model.News){
-                            <div class="news-slider__card@(title == (Model.News as IEnumerable<NewsModel>).Skip(1) ? "-2" : "")">
+                        @for(int x = 0; x<3; x++){
+                            <div class="news-slider__card@(news == (Model.News as IEnumerable<NewsModel>).Skip(1) ? "-2" : "")">
                                 <div class="bg-card">
                                     <div class="bg-card__text">
-                                        <p class="news-slider__card_text">@news.Title</p>
+                                        <p class="news-slider__card_text"></p>
                                     </div>
                                     <img style="width: 83px; height: 64.27px;position: absolute;right:18px;top:-30px" src="~/image/Group 1535.png">
                                 </div>
@@ -291,9 +293,9 @@
                         <div style="margin-left:73px;">
                             <hr style="border:1px solid #C4C4C4;width: 178px;">
                         </div>
-                    </section>
-                </div>              
-            }            
+                    </section>                        
+                 </div>     
+            }
         </div>
     </div>
     <section class="programms">

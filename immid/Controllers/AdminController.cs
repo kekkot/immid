@@ -18,7 +18,15 @@ namespace immid.Controllers
 
         public IActionResult Home()
         {
-            return Redirect("~/Auth/login");
+            ClaimsIdentity ident = HttpContext.User.Identity as ClaimsIdentity;
+            if (ident.IsAuthenticated == true)
+            {
+                return View();
+            }
+            else
+            {
+                return Redirect("~/Auth/login");
+            }
         }
 
         [HttpGet]
